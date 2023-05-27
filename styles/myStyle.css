@@ -229,3 +229,36 @@ h2 {
 header nav ul li.clicked a {
     color: red;
 }
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 767px) {
+    header {
+        margin-bottom: 1em;
+    }
+    
+    #navbar {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    h1, h2 {
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    #napkin {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* Responsive Styles for PC Devices */
+@media (min-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    #napkin {
+        margin-right: 640px;
+    }
+}
